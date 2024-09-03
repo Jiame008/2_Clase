@@ -7,6 +7,6 @@ longitud = int(input("Introduzca la longitud de la contraseña: "))
 contraseña = ""
 
 for i in range(longitud):
-    contraseña + random.choice(elementos)
+    contraseña += random.choice(elementos)
 
 print(contraseña)
